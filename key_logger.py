@@ -1,4 +1,8 @@
 
+from pynput.keyboard import Key, Controller,Listener
+import time
+keyboard = Controller()
+
 
 keys=[]
 def on_press(key):
